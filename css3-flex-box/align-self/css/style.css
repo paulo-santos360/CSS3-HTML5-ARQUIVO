@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    height: 700px;
+    margin: 10px;
+    border: 1px solid #9758a6;
+    display: flex; /* Aula */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.top-block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+    flex-grow: 1;
+    align-self: self-start;
+}
+
+/*A propriedade CSS align-self é utilizada em layouts flexíveis 
+para especificar a posição de um item flexível ao longo do eixo transversal (cruzado) em 
+relação aos outros itens no contêiner flexível.
+ Ela substitui o valor align-items definido no contêiner para o item flexível específico.*/

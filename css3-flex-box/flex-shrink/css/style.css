@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    height: 700px;
+    margin: 0 auto;
+    border: 1px solid #9758a6;
+    display: flex; /* Aula */
+}
+
+.block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.block-1{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+/* flex-shrink: 2 terá o dobro da taxa de encolhimento em comparação com outros itens que tenham 
+flex-shrink: 1.
+
+Se flex-shrink for definido como 0,
+ o item flexível não encolherá em relação aos outros itens e manterá seu tamanho original, 
+ mesmo que haja falta de espaço.*/

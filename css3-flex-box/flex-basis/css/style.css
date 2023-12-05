@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: 10px;
+    border: 1px solid #9758a6;
+    display: flex; 
+    /*  
+    flex-basis é apenas uma parte da propriedade mais completa chamada flex, que combina 
+    flex-grow, flex-shrink e flex-basis. Portanto, você pode encontrar o uso da 
+    propriedade flex com três valores, onde o terceiro valor representa o flex-basis. Por exemplo:*/
+    height: 700px;
+}
+
+.block{
+    flex-basis: 100px;
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}

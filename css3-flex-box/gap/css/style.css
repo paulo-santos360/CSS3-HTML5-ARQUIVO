@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    height: 700px;
+    margin: 10px;
+    border: 1px solid #9758a6;
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    /* gap: Essa propriedade define o espaço entre os itens filhos de um contêiner. 
+    Ela é frequentemente usada com layouts de grade e flexíveis para adicionar 
+    espaçamento entre os elementos.*/
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}

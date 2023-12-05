@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: 10px;
+    border: 1px solid #9758a6;
+    display: flex; /* Aula */
+    height: 700px;
+    justify-content: space-between;
+}
+
+.block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    /*
+    A propriedade flex-grow em CSS define a capacidade de um item 
+    flexível crescer em relação aos outros itens flexíveis em um contêiner flexível. 
+    Ela especifica o fator pelo qual o 
+    espaço restante no contêiner flexível deve ser distribuído entre os itens flexíveis.
+    
+    Se você definir flex-grow como 0, o item não crescerá e manterá seu tamanho original. 
+    Se todos os itens flexíveis tiverem flex-grow: 0, 
+    eles não crescerão, e o espaço extra no contêiner não será distribuído entre eles.*/
+}
+
+.block-1{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex-basis: 100px;
+    flex-grow: 4;
+}
+/* se tiver duas div pode definir o tamanho de uma nesse exemplo usei 4 mais pode ser outro tb*/

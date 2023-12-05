@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    height: 700px;
+    margin: 0 auto;
+    border: 1px solid #9758a6;
+    display: flex; /* Aula */
+    justify-content: space-between;
+
+}
+
+.block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex: 100px 1 1;
+    order: 2;
+}
+
+.second-block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex: 100px 4 4;
+    order: 1;
+}
+
+.three-block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex: 100px 4 4;
+    order: 4;
+}
+
+.four-block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex: 100px 4 4;
+    order: 3;
+}
+
+.five-block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex: 100px 4 4;
+    order: 5;
+}
+
+/* A propriedade CSS order é usada em 
+layouts flexíveis para especificar a ordem de exibição dos itens 
+flexíveis dentro do contêiner flexível. 
+Ela afeta a ordem visual dos elementos, independentemente da ordem em que 
+estão no código HTML. */

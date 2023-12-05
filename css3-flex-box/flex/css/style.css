@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    height: 700px;
+    margin: 0 auto;
+    border: 1px solid #9758a6;
+    display: flex; /* Aula */
+    justify-content: space-between;
+
+}
+
+.block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex: 100px 1 1;
+}
+
+.second-block{
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    flex: 100px 4 4;
+}
+
+/* O atalho flex em CSS é uma maneira abreviada de definir as três propriedades 
+flexíveis: flex-grow, flex-shrink, e flex-basis. A sintaxe do atalho é a seguinte:
+flex: [flex-grow] [flex-shrink] [flex-basis];
+
+É importante observar que o atalho flex precisa de pelo menos um valor para funcionar, e a ordem 
+dos valores é significativa. Por exemplo, se você usar apenas um valor, ele será aplicado a flex-grow.
+ Se você usar dois valores, eles serão aplicados a flex-grow e flex-shrink, respectivamente. 
+ Se você usar três valores, eles serão aplicados a flex-grow, flex-shrink, e flex-basis, nessa ordem.*/

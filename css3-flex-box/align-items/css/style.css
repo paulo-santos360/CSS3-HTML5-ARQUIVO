@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    border: 1px solid #9758a6;
+    display: flex; 
+    justify-content: center;
+    align-items:stretch;/* baseline flex-end flex-start baseline*/
+    height: 700px;
+    width: 700px;
+}
+
+.block{
+    width: 100px;/* sem a altura ele estica por causa do stretch */
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
