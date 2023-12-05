@@ -3,19 +3,27 @@ HTML5 CSS3
 
 # Site para Flex Box 🎨
 
-# display:
+# Propriedade `display:`
 
-- Valor: flex ou inline-flex.
+- **Valor:** `block`, `flex` ou `inline-flex`.
+  
+- **Descrição:** Define como um elemento deve ser exibido. `block` faz com que o elemento seja um bloco ocupando toda a largura disponível, geralmente iniciando em uma nova linha.
 
-- Descrição: Define o elemento como um contêiner flexível. flex faz com que o contêiner seja um bloco,
-- enquanto inline-flex faz com que seja embutido.
+---
 
-# css
+# Propriedade `display: block;`
 
-- Copy code
-.container-flexivel {
-  display: flex;
-}
+- **Valor:** `block`.
+  
+- **Descrição:** Define o elemento como um bloco. Isso significa que o elemento se estende por toda a largura disponível e inicia em uma nova linha.
+
+- **Exemplo:**
+  
+  ```css
+  .meu-elemento-block {
+    display: block;
+    /* Outras propriedades podem ser adicionadas conforme necessário */
+  }
 
 # flex-direction:
 
