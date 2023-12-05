@@ -25,7 +25,7 @@ HTML5 CSS3
     /* Outras propriedades podem ser adicionadas conforme necessário */
   }
 
-# flex-direction:
+# Propriedade `flex-direction;`
 
 - Valores: row, row-reverse, column, column-reverse.
 - Descrição: Define a direção principal dos itens no contêiner (linha ou coluna).
