@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 900px;
+    border: 1px solid red;
+}
+
+div{
+    width: 200px; 
+    margin: .5em auto;
+    border: 1px solid red;
+}
+
+p{
+    width: 50%; 
+}
+
+.destaque{
+    background-color: blueviolet;
+}
+
+.div1 .destaque {
+/*     transform: skew(-45deg); PODE USAR OS 2 EIXO TB Y E X(10deg, 10deg)*/
+/*        transform: skewY(-45deg);
+ */       transform: skewX(45deg);
+}
+
+
+.div2 .destaque {
+    transform: scale(1.5); *//* 1 e 5 e seu tamanho mais a metade .5 metade do 
+    tamanho menor diminuir o tamanho PODE passar dois valores scale(2, .5) eixo x e y*/
+   /*  transform: scaleX(2); */
+/*     transform: scaleY(2);
+ */
+}
+
+.div3 .destaque {
+    transform: rotate(-45deg);
+}
+

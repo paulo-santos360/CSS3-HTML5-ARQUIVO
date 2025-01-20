@@ -1,0 +1,17 @@
+input[type=checkbox]{
+    display: none;
+   /*  width: 100px;
+    height: 100px;
+    background-color: blueviolet; *//* Não funiona algumas não aplica*/
+}
+
+label span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: blueviolet;
+}
+
+input[type=checkbox]:checked+label span {
+    background-color: blue; /* Muda a cor ta label span*/
+}

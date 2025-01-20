@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 900px;
+    border: 1px solid red;
+}
+
+div{
+    width: 200px; 
+    margin: .5em auto;
+    border: 1px solid red;
+}
+
+p{
+    width: 50%; 
+}
+
+.destaque{
+    background-color: blueviolet;
+}
+
+.div1 .destaque {
+
+}
+
+
+.div2 .destaque {
+    transform: rotate(45deg) translate(150px);/* Jeito Errado a uma diferença*/
+  }
+
+.div3 .destaque {
+    transform: translate(150px) rotate(45deg);/* Jeito certo primeiro rotaciona e depois translate o eixo */
+    transform-origin: 0 100% ; /* Muda o Ponto de acordo com a Propriedade pode colocar outro valores 0 % left top*/
+  /*   transform: translate(150px);
+    transform: rotate(45deg); */
+}
+
+/* A ordem importa */

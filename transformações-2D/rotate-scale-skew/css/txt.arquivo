@@ -1,0 +1,12 @@
+Transform 2D 
+Trabalhar apenas com Rotate() mais utilizado e o grau 45deg rotaciona apartir do ponto central
+
+Rotete numeros positivo direita numeros negativos esquerdas
+360 deg msm resultado que 0
+
+Scale 
+Scale tem opção scale normal atalho para X e Y E o ScaleZ() QUE E para 3D
+NUMEROS maiores que 1 é uma ampliação e menos diminuição
+
+Skew so tem eixo X e Y na transformação 2d 
+acerta 10deg distorce 

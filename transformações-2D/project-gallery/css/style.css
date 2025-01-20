@@ -1,0 +1,98 @@
+/* *, *::after, *::before{} tem gente que usa
+ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(141, 65, 65);
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    width: 300px;
+}
+
+.gallery{
+    width: 60rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: -0.5em;
+    background-color: white;
+    padding: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0,0, .8);
+}
+
+.gallery .image{
+    margin: 5px -2px;
+    flex-basis: calc(23% - .5em); /* Largura dos elementos */
+    position: relative;/* resollver problema do position absolute .gallery p*/
+    overflow: hidden;/* Esconder o Paragrafo */
+    flex-grow: 1; /* muito bom */
+    padding: 5px;
+}
+
+.image a {
+    text-decoration: none;
+}
+
+.gallery p{
+    background-color: rgba(0, 0,0, .8);
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    letter-spacing: 2px;
+    font-size: .75em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: .2;
+    transform: translateY(100%); /* Esconder o Paragrafo */
+    transition: all .3s ease-in-out; /* Animação de transition */
+}
+
+.image:hover p{
+    transform: translateY(0%); /* Voltar o Paragrafo */
+    opacity: 1;
+}
+
+.image img{
+    transform: scale(1);
+    transition: transform .5s ease-in-out;
+}
+
+.image:hover img{
+    transform: scale(1.2); /* rotate(-10deg) */
+}
+
+.image::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    inset: 0; /* Atalho para bottom right left top */
+   /*  bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0; */
+    opacity: .5;
+    pointer-events: none; /* desliga ação de click */
+   /*  transform: scale(1); *//* treino */
+    transition: all .5s ease-in-out;
+}
+
+.image:hover::after{
+    opacity: 0;
+ /*    transform: scale(.5); *//* treino */
+}

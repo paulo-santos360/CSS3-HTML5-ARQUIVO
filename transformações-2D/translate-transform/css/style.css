@@ -1,0 +1,37 @@
+body{
+    margin-bottom: 100vh;
+}
+
+div{
+    outline: 1px solid #888;
+    width: 200px; /*300px */
+    margin: .5em auto;
+}
+
+p{
+    width: 50%; /*100*/
+}
+
+.destaque{
+    background-color: blueviolet;
+}
+
+.div1 .destaque {
+    /* transform: translateX(50px); */ /* -50 vai para a esquerda */
+   /*  transform: translateY(50px); */ /* -50 vai para baixo e para cima confome o valor positivo e negativo */
+    transform: translate(50px, -50px); /* Primeiro valor Eixo X e Segundo Eixo Y transform leva tipo 
+    um empilhamento esta num nivel Assima com a Propriedade Translante pode usar os 2 Eixo*/
+}
+
+/* Propriedade Transform mantem o posicionamento original do elemento do container funciona muito 
+parecedo com o position relativo tem algumas diferenças */
+
+/* Diferenças quando usa % e Px no transform 50% do proprio tamanho do elemento selecionado*/
+/* No Position Relative em % ele usa o Elemento pai do container */
+.div2 .destaque {
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+/* Porcetagem tem Diferença quando trabalhar com Transform e Position: Relative */

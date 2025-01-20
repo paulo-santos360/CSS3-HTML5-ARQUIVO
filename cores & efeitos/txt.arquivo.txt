@@ -1,0 +1,56 @@
++ Sobre cores, gradiente e efeitos
+
+O que temos para Falar ?
+
+- criar contador
+-hsl e hsla
+-rgb e rgba
+-gradiente linear, radial e cônico
+-color-mix
+-filter
+-background-blend-mode -mix-blend-mode
+
+RGB
+
+Cores Primarias verde vermelho azul
+Soma de todas as luzes branco
+Ausencia Preto
+
+HSL 
+tom saturação iluminosidade
+
+H tom valor em angulo
+S saturação eixo 0 cinza 100% 
+V Luz de 0% preto a 100% branco eixo v
+
+Angulo 0 Grau
+0deg Vermelho
+90deg verde
+180deg azul
+270deg
+
+Exemplos
+
+sem alpha
+#ff0000
+#ff0000
+
+rgb(255, 0, 0)
+rgb(255 0 0)
+
+hsl(0, 100%, 50%)
+hsl(0 100% 50%)
+
+com alpha
+
+#ff000077
+#ff000077
+
+rgb(255, 0, 0, .5)
+rgb(255 0 0 / .5)
+
+hsl(0, 100%, 50%, .5)
+hsl(0 100% 50% / .5)
+hsl(0, 100%, 50%, .5)
+
+

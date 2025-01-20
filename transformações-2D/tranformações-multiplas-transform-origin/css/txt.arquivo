@@ -1,0 +1,10 @@
+.div3 .destaque {
+    transform: translate(150px);
+    transform: rotate(45deg);
+}
+
+Ele não aplica assim pois a msm propriedade tem que ser assim
+
+.div3 .destaque {
+    transform: translate(150px) rotate(45deg);
+}
