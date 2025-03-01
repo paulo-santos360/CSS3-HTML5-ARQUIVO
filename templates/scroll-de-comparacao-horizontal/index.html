@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="conteudo">
+      <div class="conteudo-1 selector">Conteudo-2 <div class="conteudo-2 selector conteudo-preto">container 2</div></div>
+     
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        
+            let tl1 = gsap.timeline({
+            scrollTrigger:{
+                trigger: ".conteudo",
+                start: "top top",
+                end: "+=" + 1.5 * window.innerHeight + "px",
+                scrub: 1,
+                pin: true,
+            }
+        })
+        
+        tl1.fromTo(".conteudo-preto", {
+            clipPath: "polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)"
+        },{
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
+        })
+        
+        tl1.to(".conteudo",{
+            opacity: 0,
+            filter: "blur(10px)",
+            duration: 0.5,
+            
+        })
+        
+        </script>
+  </body>
+</html>

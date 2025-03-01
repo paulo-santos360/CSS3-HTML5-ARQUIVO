@@ -1,0 +1,55 @@
+Grid Layout
+
+Comparação
+
+Lembrando conteudo 
+
+FlexBox
+
+alinhar ou distribuir em linha reta ou vertical ou horizontal
+(unidirecional - main ou cross axis)
+
+Flex Box 
+
+alinha ou distribuir em linha reta
+
+display: flex
+
+- justify-content
+- align-items
+- align-content
+- flex-wrap
+- flex-grow
+- flex-shrink
+- flex-basis
+- order
+
+Grid Layout
+
+estabelcer áreas de layout
+(bidirecional - x ou y axis)
+
+display-grid
+
+- grid-template-columns
+- grid-template-rows
+- grid-column-start
+- grid-column-end
+- grid-auto-rows
+- column-gap
+- row-gap
+- grid-area
+
+Grid
+
+grid-gap - espaçamento
+grid-track - area completa
+grid-area - linha - coluna
+grid-cell - 
+
+defini a area que vai distribuir conteudo ex 3 linhas 5 colunas
+
+grid-line - separa as celulas - 5 colunas para distribuir 
+
+trabalhar com eixo x ou y
+

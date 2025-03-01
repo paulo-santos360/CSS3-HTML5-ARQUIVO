@@ -1,0 +1,44 @@
+.conteudo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-1{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-2{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-preto{
+    background-color: blue;
+   
+}
+
+.selector{
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+}

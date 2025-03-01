@@ -1,0 +1,22 @@
+#Relembrar Transition
+
+- Transition-Property
+- Transition-duration - duração
+- Transition-delay - atraso
+- Transition-Timing-Function - função aceleração ou diminuição ou ambos ao msm tempo
+
+#Transition transição estado 1 ao 2
+
+# Transition(shorthand)
+
+transition: property duration timing-function delay;
+
+Multiplas Transições
+
+transition: property1 duration1 timing-function1 delay1,
+            property2 duration2 timing-function2 delay2;
+
+transition-property: property1, property2;
+transition-duration: duration1, duration2;
+transition-timing-function: func1, func2;
+transition-delay: delay1, delay2; 
